@@ -7,7 +7,7 @@ import CommentsWithReplies from './components/comments-with-replies';
 import styled from 'styled-components';
 
 const ContentWrapper = styled.main`
-  width: 820px;
+  width: 820px !important;
   margin: 0 auto;
   border: 1px solid #dcdcdc;
   padding: 20px 60px;
@@ -21,7 +21,10 @@ const ModalWrapper = styled.div``;
 
 const Wrapper = styled.div``;
 
-const CommentsSection = styled.div``;
+const CommentsSection = styled.div`
+  max-height: 60vh;
+  overflow-y: auto;
+`;
 
 export default class App extends React.Component {
   constructor() {

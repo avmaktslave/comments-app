@@ -3,15 +3,12 @@ import styled from 'styled-components';
 import Comment from './comment';
 import { sortCommentsByDate } from '../services';
 
-const Group = styled.div``;
+const Group = styled.div`
+  margin-right: 10px;
+`;
 
 const ChildsList = styled.ul`
   padding-left: 60px;
-  li {
-    // background-color: darkturquoise;
-    border-radius: 35px;
-    margin-bottom: 10px;
-  }
 `;
 
 const CommentsWithReplies = ({
