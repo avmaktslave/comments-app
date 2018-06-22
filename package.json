@@ -1,0 +1,65 @@
+{
+  "name": "comments-app",
+  "description": "Simple comments app",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src"
+  },
+  "engines": {
+    "node": "^8.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "node src/",
+    "develop": "./node_modules/.bin/parcel index.html",
+    "build": "./node_modules/.bin/parcel build --out-dir public/ index.html "
+  },
+  "dependencies": {
+    "@feathersjs/configuration": "^1.0.2",
+    "@feathersjs/errors": "^3.3.0",
+    "@feathersjs/express": "^1.2.3",
+    "@feathersjs/feathers": "^3.1.7",
+    "@feathersjs/rest-client": "^1.4.0",
+    "@material-ui/core": "^1.2.3",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "feathers-nedb": "^3.0.1",
+    "helmet": "^3.12.1",
+    "nedb": "^1.8.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "serve-favicon": "^2.5.0",
+    "styled-components": "^3.3.3",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "mocha": "^5.2.0",
+    "parcel-bundler": "^1.9.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "webpack": "^4.12.0"
+  }
+}

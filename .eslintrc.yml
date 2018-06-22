@@ -1,0 +1,5 @@
+extends: airbnb
+rules:
+  no-console: 0
+  line-break-style: 0
+  no-underscore-dangle: 0
