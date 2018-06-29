@@ -159,7 +159,7 @@ export default class App extends React.Component {
         <ContentWrapper>
           <textarea
             style={{
-              width: '100%',
+              width: '95%',
               borderRadius: '15px',
               padding: '5px',
               fontSize: '0.8em !important',
